@@ -1,0 +1,194 @@
+/* ==UserStyle==
+@name           GG.deals - Black Theme
+@namespace      github.com/pabli24
+@version        1.0.0
+@description    Black Theme for gg.deals
+@author         Pabli
+@license        MIT
+@homepageURL    https://github.com/pabli24/GGdeals-Black
+@supportURL     https://github.com/pabli24/GGdeals-Black/issues
+==/UserStyle== */
+
+@-moz-document url-prefix("https://gg.deals") {
+
+body, .settings-menu {
+	color: #fff;
+	background-color: #000;
+}
+.game-header-box, .header-game-prices-wrapper,
+.hoverable-box, .game-box-bg.game-description-wrapper, .game-box-bg.system-requirements, .game-info-widget .game-info-content, .game-box-bg, .games-hover-boxes .game-hover-box, .games-hover-boxes .game-hover-box .game-details-wrapper, #news-card #comments #disqus_thread, .top-search #global-search-form .input-wrapper,
+.content-background-box .contact-form-content .collapse-group .collapse-wrapper .form-control.collapsed, .filter-content .radio-list .filter-radio-item:not(.badge-filter).active, .hoverable-box.archived, .hoverable-box.archived:active, .hoverable-box.archived:hover, .hoverable-box.ext-hover, .hoverable-box.ext-hover:hover, .hoverable-box.game-item-column-head, .hoverable-box.game-item-column-head:hover, .hoverable-box.game-items-header, .hoverable-box.game-items-header:hover, .hoverable-box.inactive, .hoverable-box.inactive:active, .hoverable-box.inactive:hover, .hoverable-box.no-hover, .hoverable-box.no-hover:hover, .hoverable-box.options-active, .hoverable-box.options-active:hover, .pagination ul.bottom-pagination li.page .page-current-input:focus, .flash-container-wrapper, .action-box.btn.btn-white {
+	background-color: #111;
+}
+.action-btn.action-ext, .action-btn.color-btn, .games-box .game-item .game-cta.shop-icon-cta .shop-icon, .game-info-widget .game-info-heading.in-content, .deal-cta-btn, .game-info-widget .game-info-footer, .search-bar-input, form .collapse-group.active .collapse-wrapper a.form-control.collapsed, .styled-form .form-group.collapse-group .collapse-wrapper .form-control, .top-search #global-search-form .search-results {
+	background: #111;
+}
+.action-btn.action-desktop-btn.disabled {
+	background-color: #222 !important;
+	color: #666 !important;
+}
+.filter-view .view-action .item .svg-icon {
+	color: #666;
+}
+.menu-profile-dropdown > .dropdown-menu {
+	background: #151515;
+}
+body.search-opened .navbar-new .main-menu-wrapper .top-search #global-search-form .input-wrapper .search-input {
+	background-color: #111;
+}
+body::before {
+	background: rgba(0, 0, 0, .2);
+}
+.highcharts-background {
+	fill: #111;
+}
+.highcharts-container .highcharts-grid-line, .highcharts-container .highcharts-grid-line[style] {
+	stroke: #222 !important;
+}
+.btn-action {
+	background: #134972;
+}
+.btn-action:hover {
+	background: #106cb1;
+}
+.action-btn.action-ext.action-desktop-btn, .action-btn.color-btn.action-desktop-btn {
+	background-color: #134972;
+}
+.action-btn.action-ext:hover:not(.disabled):not(.color-btn), .action-btn.color-btn:hover:not(.disabled):not(.color-btn), .games-box .game-item.cta-full:hover .game-cta .action-btn.action-ext {
+	background-color: #106cb1;
+}
+.action-box.sync-box.in-progress, .single-news-container, .popup-modal .modal-content, .styled-form .collapse-form .form-actions {
+	background: #050505;
+}
+.navbar-new {
+	background-color: #000;
+	color: #c0c4c6;
+}
+.game-tabs-container-wrapper.is-sticked .game-tabs-container,
+.game-tabs-container-wrapper.is-sticked .game-tabs-container ul.nav.nav-game::after {
+	background-color: #151515;
+}
+.footer-wrapper {
+	background: #050505;
+}
+.filters-bottom-container {
+	border-top: 1px solid #222;
+}
+.widget-side-box .widget-side-header, .following-tabs, .game-lowest-prices-content.game-lowest-prices-content, .game-requirements-content.game-lowest-prices-content {
+	border-bottom: 1px solid #222;
+}
+.widget-side-box .widget-side-item-row::after,
+.game-tabs-container-wrapper ul.nav.nav-game::after,
+.mainpage #news-presets #news-preset-tabs .nav::after,
+.menu-profile-dropdown .menu-profile-list .menu-profile-list-item.avatar-item::after,
+.navbar-new .main-menu-wrapper .bottom-mobile-menu::before,
+.filter-form .filter-line::before,
+.top-search #global-search-form .search-results .search-results-news-empty::before {
+	background: #222;
+}
+.btn-show-more, .game-single-actions .game-action-wrap .game-action, .badge.badge-big, .browse-all, .swiper .swiper-pagination.gallery-pagination .swiper-pagination-bullet::before, .score-bar, .badge {
+	background: #222;
+}
+.btn.btn-grey-light, .btn.btn-red.inverse {
+	color: #eee;
+	background-color: #222 !important;
+}
+.btn.btn-grey-light:hover {
+	color: #eee;
+	background-color: #444 !important;
+}
+.badge.badge-trigger {
+	color: #ddd;
+	border: 1px solid #222;
+}
+.game-single-actions .game-action-wrap:hover .deactivate {
+	border-color: #8e8e8e;
+}
+.game-single-actions .game-action-wrap .deactivate, .search-bar-input {
+	border: 1px solid #464646;
+	background-color: #111;
+}
+.game-single-actions .game-action-wrap .user-count {
+	border-left: 1px solid #111;
+}
+.game-single-actions .game-action-wrap .deactivate .user-count, .game-single-actions .game-action-wrap:hover .deactivate .user-count {
+	border-color: #464646;
+}
+.game-single-actions .game-action-wrap .deactivate .title {
+	color: #ccc;
+}
+.following-tabs .following-tab .tab-link {
+	color: #ccc;
+}
+.badge:not(.active):hover, a.badge:not(.active):hover, .browse-all:hover, .btn-show-more:hover {
+	background: #444;
+	color: #dcdce5;
+}
+.game-single-actions .game-action-wrap:hover .activate, .game-single-actions .game-action-wrap:hover .activate:active, .game-single-actions .game-action-wrap:hover .activate:focus, .alert::before {
+	background-color: #444;
+}
+.games-box .game-item.border-top-desktop, .games-box .shop-item.border-top-desktop,
+.games-box.games-box-related-list .game-item, .item-list.list-layout, .game-info-widget .game-info-details .game-info-details-section .games-box.game-info-inner-deals .deal-item, .top-search #global-search-form .search-results, .navbar-new .menu-notifications-dropdown .notifications-menu .notifications-content .notification-date-separator+.notification-item, .news-article .news-content .article-games-box, .news-article .news-content .article-games-box.games-box, .top-search #global-search-form .search-results .search-results-games .global-search-item.search-result-game:first-child, .top-search #global-search-form .search-results .search-results-trending-item:first-child {
+	border-top: 1px solid #353535;
+}
+.game-info-widget .game-info-details .game-info-details-section .games-box.game-info-inner-deals .deal-item:last-child, .top-search #global-search-form .search-results .search-results-trending-item {
+	border-bottom: 1px solid #353535;
+}
+.games-box .game-item .game-cta {
+	border-left: 1px solid #353535;
+}
+.top-search #global-search-form .search-results .search-results-col.search-results-col-news {
+	background: #353535;
+}
+.item-list.list-layout:hover {
+	background-color: #222 !important;
+}
+.filter-content .filter-radio-item:not(.badge-filter):hover, .filter-content .filter-switch:not(.single-filter-switch):hover, .hoverable-box:hover, .sync-box.connected:hover, .sync-box.disconnected:hover, form .collapse-group .collapse-wrapper .item.radio-item:hover, .games-hover-boxes .game-hover-box.active:not(.options-active):not(.static) .game-details-wrapper, .games-hover-boxes .game-hover-box:hover:not(.options-active):not(.static) .game-details-wrapper, .dropdown-toggle-inside .notifications-menu-dropdown-list .item:not(.active):hover, .filter-list>.filter-content .list.dropdown-option-layout .item:not(.active):hover, .filter-list>.list.dropdown-option-layout .item:not(.active):hover, .menu-profile-dropdown .menu-profile-list .menu-profile-list-item .menu-profile-list-link:hover, .user-menu-dropdown>.filter-content .list.dropdown-option-layout .item:not(.active):hover, .user-menu-dropdown>.list.dropdown-option-layout .item:not(.active):hover, [data-filter-type~=checkboxes-list]>.filter-content .list.dropdown-option-layout .item:not(.active):hover, [data-filter-type~=checkboxes-list]>.list.dropdown-option-layout .item:not(.active):hover, [data-filter-type~=filter-list]>.filter-content .list.dropdown-option-layout .item:not(.active):hover, [data-filter-type~=filter-list]>.list.dropdown-option-layout .item:not(.active):hover, [data-filter-type~=page-size-radio-list]>.filter-content .list.dropdown-option-layout .item:not(.active):hover, [data-filter-type~=page-size-radio-list]>.list.dropdown-option-layout .item:not(.active):hover, [data-filter-type~=radio-list]>.filter-content .list.dropdown-option-layout .item:not(.active):hover, [data-filter-type~=radio-list]>.list.dropdown-option-layout .item:not(.active):hover, .navbar-new .main-menu-wrapper .bottom-mobile-menu .bottom-mobile-menu-item .bottom-mobile-menu-link:hover, .action-box:not(.in-progress):not(.not-hover):hover.btn.btn-white {
+	background-color: #222;
+}
+.navbar-new .main-menu-wrapper .top-menu .top-menu-list .top-menu-list-item.more.open, .navbar-new .main-menu-wrapper .top-menu .top-menu-list .top-menu-list-item.more:hover, .navbar-new .main-menu-wrapper .top-side-menu .top-side-menu-list .top-side-menu-item.open, .navbar-new .main-menu-wrapper .top-side-menu .top-side-menu-list .top-side-menu-item:hover:not(.login), .steam-login:hover, .steam-login:active, .steam-login:focus {
+	background-color: rgba(255, 255, 255, .1);
+}
+.steam-login {
+	background-color: rgba(0, 0, 0, 0);
+}
+.label.no-label, .price-info-box-wrapper .game-lowest-prices-content .game-lowest-price-row .game-lowest-price-details-row .game-lowest-price-col, .game-info-widget .game-info-heading .game-info-subheading {
+	color: #aaa;
+}
+.styled-form .form-control::placeholder {
+	color: #888 !important;
+}
+#global-search-form input::placeholder {
+	color: #888 !important;
+}
+.filter-content .search-bar-input>label, .search-bar-input>label {
+	color: #888;
+}
+.btn.btn-blue.disabled:focus, .games-box .game-item.inactive .game-info-title, .games-box .game-item.inactive .game-tags .tags .tag .title, .games-box .game-item.inactive .game-tags .tags .tag .value, .games-box .game-item.inactive .game-tags .tags .tag a, .games-box .game-item.inactive.games-list-layout .game-info-wrapper.column-wrapper .game-tags .tags .tag .title, .games-box .game-item.inactive.games-list-layout .game-info-wrapper.column-wrapper .game-tags .tags .tag .value, .games-box .game-item.inactive.games-list-layout .game-info-wrapper.column-wrapper .game-tags .tags .tag a, .hoverable-box.inactive .platform-icon .svg-icon, .hoverable-box.inactive:not(:hover) .platform-icon .svg-icon, .user-alerts-page .game-item.alert-item.inactive .game-active-icons, .user-alerts-page .game-item.alert-item.inactive .game-info-title, .user-alerts-page .game-item.alert-item.inactive .game-tags .tags .tag .title, .user-alerts-page .game-item.alert-item.inactive .game-tags .tags .tag .value {
+	color: #777;
+}
+.games-box .game-item .price-wrapper .price-old, .games-box .game-item .game-info-wrapper .unavailable-label {
+	color: #777;
+}
+.game-header-container.game-header .game-info-details .game-main-description p {
+	color: rgba(255, 255, 255, .5);
+}
+@keyframes blink { 0% { color: #f00 } 100% { color: #fff }}
+.switch-label.light {
+	animation: blink 1s linear infinite;
+}
+.switch-label.dark {
+	font-size: 0px !important;
+}
+.switch-label.dark:after {
+	font-size: 12px !important;
+	content: "Black";
+	vertical-align: middle;
+}
+.switch-label-wrapper > .switch-label.dark:after {
+	font-size: 14px !important;
+}
+.gg-theme-switcher .switch, .gg-theme-switcher .switch::after {
+	background: #333;
+}
+}
