@@ -18,10 +18,10 @@ body, .settings-menu, .site-banner-content-widget .banner-background-container::
 }
 .game-header-box, .header-game-prices-wrapper,
 .hoverable-box, .game-box-bg.game-description-wrapper, .game-box-bg.system-requirements, .game-info-widget .game-info-content, .game-box-bg, .games-hover-boxes .game-hover-box, .games-hover-boxes .game-hover-box .game-details-wrapper, #news-card #comments #disqus_thread, .top-search #global-search-form .input-wrapper,
-.content-background-box .contact-form-content .collapse-group .collapse-wrapper .form-control.collapsed, .filter-content .radio-list .filter-radio-item:not(.badge-filter).active, .hoverable-box.archived, .hoverable-box.archived:active, .hoverable-box.archived:hover, .hoverable-box.ext-hover, .hoverable-box.ext-hover:hover, .hoverable-box.game-item-column-head, .hoverable-box.game-item-column-head:hover, .hoverable-box.game-items-header, .hoverable-box.game-items-header:hover, .hoverable-box.inactive, .hoverable-box.inactive:active, .hoverable-box.inactive:hover, .hoverable-box.no-hover, .hoverable-box.no-hover:hover, .hoverable-box.options-active, .hoverable-box.options-active:hover, .pagination ul.bottom-pagination li.page .page-current-input:focus, .flash-container-wrapper, .action-box.btn.btn-white, .page-social-widget .social-widget-box, .similar-deals-container span.fake-link, .page-social-widget.compact .social-widget-box .social-box-content, .similar-deals-container .similar-deals-spoiler {
+.content-background-box .contact-form-content .collapse-group .collapse-wrapper .form-control.collapsed, .filter-content .radio-list .filter-radio-item:not(.badge-filter).active, .hoverable-box.archived, .hoverable-box.archived:active, .hoverable-box.archived:hover, .hoverable-box.ext-hover, .hoverable-box.ext-hover:hover, .hoverable-box.game-item-column-head, .hoverable-box.game-item-column-head:hover, .hoverable-box.game-items-header, .hoverable-box.game-items-header:hover, .hoverable-box.inactive, .hoverable-box.inactive:active, .hoverable-box.inactive:hover, .hoverable-box.no-hover, .hoverable-box.no-hover:hover, .hoverable-box.options-active, .hoverable-box.options-active:hover, .pagination ul.bottom-pagination li.page .page-current-input:focus, .flash-container-wrapper, .action-box.btn.btn-white, .page-social-widget .social-widget-box, .similar-deals-container span.fake-link, .page-social-widget.compact .social-widget-box .social-box-content, .similar-deals-container .similar-deals-spoiler, .platform-tab.badge.badge-big.active, .games-box .game-item.game-items-header, .news-article .btn-show-more-container:not(.no-bg) {
 	background-color: #111; //#353347
 }
-.action-btn.action-ext, .action-btn.color-btn, .games-box .game-item .game-cta.shop-icon-cta .shop-icon, .game-info-widget .game-info-heading.in-content, .deal-cta-btn, .game-info-widget .game-info-footer, .search-bar-input, form .collapse-group.active .collapse-wrapper a.form-control.collapsed, .styled-form .form-group.collapse-group .collapse-wrapper .form-control, .top-search #global-search-form .search-results {
+.action-btn.action-ext, .action-btn.color-btn, .games-box .game-item .game-cta.shop-icon-cta .shop-icon, .game-info-widget .game-info-heading.in-content, .deal-cta-btn, .game-info-widget .game-info-footer, .search-bar-input, form .collapse-group.active .collapse-wrapper a.form-control.collapsed, .styled-form .form-group.collapse-group .collapse-wrapper .form-control, .top-search #global-search-form .search-results, .game-item-bottom-info {
 	background: #111;
 }
 .action-btn.action-desktop-btn.disabled {
@@ -179,7 +179,7 @@ body.full-overlay:after, body .mfp-bg, body .modal-backdrop {
 	color: #8f849a;
 	color: #aaa;
 }
-.label.no-label, .price-info-box-wrapper .game-lowest-prices-content .game-lowest-price-row .game-lowest-price-details-row .game-lowest-price-col, .game-info-widget .game-info-heading .game-info-subheading {
+.label.no-label, .price-info-box-wrapper .game-lowest-prices-content .game-lowest-price-row .game-lowest-price-details-row .game-lowest-price-col, .game-info-widget .game-info-heading .game-info-subheading, .game-lowest-prices-options .filter-switch .switch-label {
 	color: #aaa;
 }
 .styled-form .form-control::placeholder {
@@ -220,5 +220,64 @@ body.full-overlay:after, body .mfp-bg, body .modal-backdrop {
 }
 .mass-container .mass-container-bottom {
 	background: #111; //#f4f5f6
+}
+.main-title, .news-section .item.news-item .news-title-wrapper .news-title, .social-widget-box h4, .pagination ul.bottom-pagination .page-current-input, .pagination ul.bottom-pagination .pjax-link, .pagination ul.bottom-pagination li.page.next-page .pjax-link, .news-heading .news-heading-title h1, .news-content .lead, .widget-heading, .games-box .game-item .game-info-title, .price .price-inner, .widget-side-box .widget-side-title h3, .widget-side-box .widget-side-item-title, .news-content h2, .news-content h3, .news-heading-expired-info .heading-expired, .section-title, .mainpage .presets-container .preset-title-link, .item-list .main-wrap .title-line .title, .mp-portrait-header .part-title.preset-title .preset-title-link, .item-list.portrait-item .game-info-wrapper .game-info-title, .dynamic-content-tabs .menu-item.active .part-title, .item.mp-portrait-item .main-wrap .title-line .title, .game-header-box h1, .following-tabs .following-tab.active .tab-link, ul.nav.nav-game li.menu-item.active a, .platform-tab.badge.badge-big.active, .game-page .widget-heading, .game-boxes-heading .offers-amount, .game-about-heading h2, .header-game-prices-wrapper .header-game-prices-content .game-price-anchor-link, .games-hover-boxes .game-hover-box .game-details-title, .games-hover-boxes .game-hover-box .game-details-content .price .price-inner, .price-info-box-wrapper .game-lowest-prices-content .game-lowest-price-row .game-lowest-price-inner-row .game-lowest-price-col, .label.code {
+	color: #fff;
+}
+.page-info-widget:not(#footer-main-description) .main-description, .widget-side-box .widget-side-deal-store, .news-article.expired .row-news .news-heading .news-heading-title h1 {
+	color: rgba(255,255,255,.4);
+}
+.filter-form .filter-line .filter-dropdown > .current .text::after {
+	border-color: #c5c4d4 transparent transparent;
+}
+.badge.badge-big.active, .badge.active, a.badge.active {
+	background: #dcdce5;
+	color: #4f4d6a;
+}
+.presets-wrapper .presets-heading, .news-section .item.news-item .news-lead, .social-widget-box, .social-widget-box a, #footer-main-description h3:first-child, #footer-main-description h3, #ggdeals-footer .gg-footer-content h4, #ggdeals-footer .gg-footer-content .footer-link-list li > a, #ggdeals-footer .footer-links-col .footer-links-list li .footer-link, .news-content, .news-heading-expired-info .content-expired, .news-single-tags-container .news-single-tags-label, #footer-main-description .main-title, #footer-main-description h2, ul.nav.nav-game li.menu-item {
+	color: rgba(255,255,255,.8);
+}
+.page-info-widget:not(#footer-main-description) .main-description a.read-more-btn, #footer-main-description .main-description p, #ggdeals-footer .gg-footer-content .about.disclaimer p, .dynamic-content-tabs .menu-item .part-title, #footer-main-description .main-description a, .game-description-wrapper .game-description, #footer-main-description .main-description ul li, .game-header-container.game-header .game-info-editions-wrapper .game-editions-list-widget .game-info-label, .game-info-inner-heading, .game-info-widget .game-info-details-content, .platform-icon.platform-link-icon, .grey-light-link, .game-boxes-heading .heading-info-link, .game-content-box .system-requirements-text strong, .game-content-box .system-requirements-text, .game-content-box.empty-state p, .game-connected-list.game-ranking-entries .game-connected-single, .game-lowest-price-current .game-lowest-current-heading, .game-lowest-current-details, .alert-info-box, .game-single-actions .game-action-wrap {
+	color: rgba(255,255,255,.6);
+}
+.pagination ul.bottom-pagination li.page.disabled .pjax-link {
+	color: rgba(255,255,255,.4) !important;
+}
+.pagination ul.bottom-pagination li.page.selected {
+	border: 1px solid #fff;
+}
+#ggdeals-footer .gg-footer-content .gg-footer-logo .logo {
+	filter: grayscale(1) invert(1);
+	opacity: .7;
+}
+.badge, .footer-soc-list .soc-link, .browse-all {
+	color: #dcdce5;
+}
+#ggdeals-footer .footer-copyrights-col .copyrights, .tags .tag .title, .tags .tag, .tags .svg-icon, .header-game-prices-wrapper .header-game-prices-content .game-info-price-label, .header-game-prices-wrapper .game-subscriptions-list-widget .game-subscriptions-label {
+	color: rgba(255,255,255,.4);
+}
+.filter-form .filter-line .filters-line-container .filter.single-checkbox > .single-filter-switch label, .filter-form .filter-line .filter-dropdown > .current, #ggdeals-footer .footer-b2t-col .go-to-top, .collapsible-showHide, .filter-form .filter-line .filter-dropdown.filter-sort > .current, .news-heading .news-share li .news-share-btn, .filter-link-button {
+	color: #c5c4d4;
+}
+.news-content .lead {
+	border-left: 2px solid #fff;
+}
+.btn-show-more {
+	color: #dcdce5 !important;
+}
+#news-card .btn-show-more-container {
+	border-bottom: 1px solid #23222f;
+}
+.news-heading-expired-info, .news-deals-container {
+	background: #353347;
+}
+.news-deals-container .search-bar-input {
+	border: 1px solid #5c5365;
+}
+.news-deals-container .list .list-items .game-item, .item.mp-portrait-item, .games-box .game-item.game-items-header + div .game-item:first-child, .game-item-info-inner, .news-article .btn-show-more-container:not(.no-bg) {
+	border-top: 1px solid #23222f;
+}
+.label.code {
+	border: 1px dashed #fff;
 }
 }
